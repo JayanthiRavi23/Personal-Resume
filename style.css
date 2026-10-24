@@ -1,0 +1,335 @@
+body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #d1bef7;
+}
+#container{
+    display: flex;
+    width: 100%;
+}
+aside{
+    width:20%;
+    background-color: #7654B8;
+    color: white;
+    padding: 24px;
+    border-radius: 12px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+.contact{
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+.contact h1 i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.contact p i{
+    font-size: 14px;
+    margin-right: 8px;
+}
+.contact h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.contact p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact i{
+    padding-right: 10px;
+}
+.tec-skill{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    color: white;
+    
+}
+.tec-skill h1{
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.tec-skill h1 i{
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.tec-skill ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.tec-skill li {
+    background-color: white;
+    color: #7654B8;
+    padding: 6px 2px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    min-width: 0;
+}
+
+.per-skill{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    padding-top: 10px;
+}
+.per-skill h1{
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.per-skill h1 i{
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+.per-skill ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.per-skill li {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.per-skill li i {
+    color: white;
+    flex-shrink: 0;
+}
+
+
+.hob{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    padding-top: 10px;
+}
+.hob h1{
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.hob h1 i{
+    color: white;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.hob ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.hob li{
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 14px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+.hob li i{
+    color: white;
+    flex-shrink: 0;
+}
+main{
+    width:80%;
+    background-color: #dfcfff;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    border-radius:12px;
+}
+.info{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7654B8;
+}
+.info h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #7654B8;
+    margin-bottom: 8px;
+}
+.info h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+.info a{
+    font-size: 16px;
+    color: #444444;
+    text-decoration: none;
+    padding: 5px;
+}
+.info a:hover{
+    color: #7654B8;
+}
+.info a i{
+    font-size: 16px;
+    color: #7654B8;
+    padding-right: 10px;
+}
+.info .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #7654B8;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.info .download-btn:hover{
+    background-color: #230264;
+}
+.info .download-btn i{
+    color: white;
+}
+.career h1{
+    color: #7654B8;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7654B8;
+}
+.career p{
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.edu h1{
+    font-size: 28px;
+    color: #7654B8;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7654B8;
+}
+.edu i{
+    color: #7654B8;
+}
+.edu h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.edu p{
+    font-size: 14px;
+}
+.yop{
+    font-size: 13px;
+    color: #7654B8;
+    line-height: 1.5;
+}
+.project{
+    margin-bottom: 20px;
+}
+.project h1{
+    font-size: 28px;
+    color: #7654B8;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7654B8;
+}
+.project h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.project h4{
+    font-size: 13px;
+    color: #7654B8;
+}
+.project p{
+    font-size: 14px;
+    line-height: 1.6;
+}
+.project i{
+    color: black;
+    padding-right: 10px;
+}
+.project a{
+    border:2px solid #7654B8;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #bda4f0;
+    text-decoration: none;
+    color: #7654B8;
+}
+.project a:hover{
+    color: #231146;
+}
+.achieve h1{
+    color: #7654B8;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7654B8;
+}
+.achieve li{
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.course h1{
+    color: #7654B8;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #7654B8;
+}
+
+.course h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.course h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+.course p{
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 8px;
+}
